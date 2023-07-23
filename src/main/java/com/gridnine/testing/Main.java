@@ -18,12 +18,12 @@ public class Main {
         }
 
         System.out.println("Departure to the current time:");
-        System.out.println((new FilterDepartureToTheCurrentTime().filter(flightList)).toString());
+        System.out.println((new FilterDepartureToTheCurrentTime().filter(flightList)));
 
         System.out.println("Arrival date earlier departure date:");
-        System.out.println((new FilterArrivalDateEarlierDepartureDate().filter(flightList)).toString());
+        System.out.println((new FilterArrivalDateEarlierDepartureDate().filter(flightList)));
 
         System.out.println("Total time spent on earth exceeds two hours:");
-        System.out.println((new FilterTotalTimeSpentOnEarthExceedsTwoHours().filter(flightList)).toString());
+        System.out.println((new FilterTotalTimeSpentOnEarthExceedsTwoHours().filter(flightList)));
     }
 }
